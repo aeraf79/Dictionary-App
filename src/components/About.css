@@ -1,0 +1,38 @@
+.about-container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 20px;
+  min-height: 80vh;
+  z-index: 1;
+}
+body{
+  background-image: url('../image/background.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.about-card {
+  max-width: 800px;
+  background: #ffffff;
+  
+  padding: 40px;
+  border-radius: 15px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.about-card h1 {
+  font-size: 32px;
+  margin-bottom: 20px;
+  color: #333;
+  text-align: center;
+}
+
+.about-card p {
+  font-size: 18px;
+  line-height: 1.7;
+  color: #555;
+}
