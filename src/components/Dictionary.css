@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @import './global.css';
 
 .dictionary-page {
@@ -268,3 +269,69 @@
   .word-title  { font-size: 1.8rem; }
   .search-heading { font-size: 1.6rem; }
 }
+=======
+.dictionary-container {
+  position: relative;
+  max-width: 700px;
+  margin: 30px auto;
+  background: rgba(189, 193, 191, 0.85); 
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+  z-index:1;
+}
+
+body {
+  background-image: url('../image/background.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+
+
+
+input[type="text"] {
+  width: 100%;
+  padding: 12px;
+  font-size: 16px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #0ead6b;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color:#29d18b;
+}
+
+.result {
+  margin-top: 20px;
+}
+
+.result h2 {
+  font-size: 26px;
+  color: #333;
+}
+
+.result audio {
+  margin-top: 10px;
+}
+
+.meaning {
+  margin-top: 20px;
+}
+
+.meaning h4 {
+  text-transform: capitalize;
+  color: #111;
+}
+>>>>>>> 5c82e76e8ad50cc288a177719fe1336954456c87

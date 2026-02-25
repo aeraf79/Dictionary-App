@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @import './global.css';
 
 nav {
@@ -74,3 +75,50 @@ nav {
   background: rgba(224, 82, 82, 0.08) !important;
   color: #c0392b !important;
 }
+=======
+.heading{
+    margin-left: 20px;
+    margin-bottom: 10px;
+    font-size: 27px !important;
+}
+nav {
+  background-color: #0ead6b;
+  height: 55px;
+  color: white;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin-right: 20px;
+  font-size: 17px;
+  font-weight: 500;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+nav button {
+  background-color: crimson;
+  color: white;
+  border: none;
+  font-size: 17px;
+  padding: 7px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+nav button:hover {
+  background-color: rgb(31, 128, 87);
+}
+
+nav span:first-child {
+  font-size: 22px;
+  font-weight: bold;
+}
+>>>>>>> 5c82e76e8ad50cc288a177719fe1336954456c87
