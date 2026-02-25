@@ -5,7 +5,6 @@ import { Link } from 'react-router-dom';
 const Home = () => {
   return (
     <div className="home-container">
-<<<<<<< HEAD
       <div className="home-content">
         <span className="home-badge">✦ Free Dictionary App</span>
         <h1>Explore the World of <span>Words</span></h1>
@@ -31,23 +30,9 @@ const Home = () => {
             <span>Audio</span>
           </div>
         </div>
-=======
-      <div className="overlay">
-        <div className="home-content">
-          <h1>Welcome to WordWise</h1>
-          <p>Your ultimate companion for discovering word meanings, synonyms, and pronunciations. Explore the beauty of language with ease.</p>
-          <Link to="/dictionary">
-            <button className="start-btn">Start Exploring</button>
-          </Link>
-        </div>
->>>>>>> 5c82e76e8ad50cc288a177719fe1336954456c87
       </div>
     </div>
   );
 };
 
-<<<<<<< HEAD
 export default Home;
-=======
-export default Home;
->>>>>>> 5c82e76e8ad50cc288a177719fe1336954456c87

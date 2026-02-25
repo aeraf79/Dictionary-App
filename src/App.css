@@ -1,6 +1,6 @@
-<<<<<<< HEAD
+
 @import './components/global.css';
-=======
+
 .App {
   text-align: center;
 }
@@ -39,4 +39,4 @@
     transform: rotate(360deg);
   }
 }
->>>>>>> 5c82e76e8ad50cc288a177719fe1336954456c87
+
